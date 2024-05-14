@@ -1,0 +1,8 @@
+.mainBody{
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 90vh;
+    padding-top: 0px;
+    padding-right: 0px;
+  }

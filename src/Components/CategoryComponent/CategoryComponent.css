@@ -1,0 +1,81 @@
+.createNewCategory .modal-overlay {
+    z-index: 2;
+    position: fixed;
+    top: -20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25%;
+    padding-left: 25%;
+  }
+  
+.modal-content {
+    background-color: white;
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+ }
+
+ .createNewCategory  .modal-header {
+    background-color: white;
+    padding: 20px;
+    margin-left: 0px !important;
+    border-radius: 5px;
+    max-width: 50%;
+    max-height: 100%;
+    overflow: auto;
+ }
+  
+.createNewCategory  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    padding: 0px !important;
+    border: none;
+    background-color: transparent;
+}
+
+.createNewCategory .btn{
+    width: 100%;
+}
+  
+ .createNewCategory label{
+    width: 50%;
+    padding-right: 10px;
+    padding-left: 0px;
+ }
+  
+ .createNewCategory input{
+    width: 80%;
+ }
+
+ .createNewCategory select{
+    width: 79%;
+ }
+
+ .createNewCategory .label-input{
+    margin: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.createNewCategory .modal-footer{
+    padding: 10px !important;
+    display: flex;
+    justify-content: space-between !important;
+  }
+
+.createNewCategory .modal-footer .btn{
+    width: 20%;
+}
+  
